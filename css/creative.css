@@ -81,24 +81,24 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #000000;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-#mainNav .navbar-brand {
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
+    #mainNav .navbar-brand {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000000;
+        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    }
 
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
-}
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+            color: #000000;
+        }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -129,11 +129,11 @@ img::-moz-selection {
     border-color: transparent;
     background-color: transparent;
   }
-  #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
-  }
+    #mainNav .navbar-brand {
+        color: rgba(0, 0, 0, 1);
+    }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #000000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -151,10 +151,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #000000;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
