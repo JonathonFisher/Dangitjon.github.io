@@ -34,8 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    /*'Open Sans', 'Helvetica Neue', Arial, sans-serif;*/
+    font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
 }
 
 .bg-primary {
@@ -43,7 +42,7 @@ h6 {
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+    background-color: #694435 !important;
 }
 
 .text-faded {
@@ -83,7 +82,7 @@ img::-moz-selection {
 #mainNav {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #000000;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
@@ -93,7 +92,7 @@ img::-moz-selection {
         font-weight: 700;
         text-transform: uppercase;
         color: #000000;
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
     }
 
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -138,31 +137,35 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
-  }
+  /*Changes the nav color when on header image*/
+    #mainNav .navbar-nav > li.nav-item > a.nav-link,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgba(0, 0, 0, 1));
+    }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #000000;
   }
-  #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
-  }
+  /*Changes color of nav bar*/
+    #mainNav.navbar-shrink {
+        border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+        background-color: #778235;
+    }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #000000;
   }
+  /*changes the nav color when off header*/
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #fff;
   }
+  /*changes the hover nav color when off header*/
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #000000;
   }
 }
 
