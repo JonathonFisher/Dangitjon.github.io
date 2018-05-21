@@ -340,3 +340,4 @@ bower_components
 .vs/VSWorkspaceState.json
 .vs/slnx.sqlite
 .vs/Dangitjon.github.io/v15/.suo
+*.sqlite
