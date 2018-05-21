@@ -5,7 +5,9 @@ hr.light{border-color:#fff}
 a{color:#f05f40;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s}
 a:hover{color:#f05f40}
 h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}
-.bg-primary{background-color:#f05f40!important}
+.bg-primary {
+    background-color: #694435!important
+}
 .bg-dark{background-color:#212529!important}
 .text-faded{color:rgba(255,255,255,.7)}
 section{padding:8rem 0}
@@ -32,8 +34,8 @@ img::-moz-selection{color:#fff;background:0 0}
             color: #000000
         }
 #mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{font-size:.9rem;font-weight:700;text-transform:uppercase;color:#212529}
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{color:#f05f40}
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active{color:#f05f40!important;background-color:transparent}
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{color:#000000}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active{color:#000000!important;background-color:transparent}
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover{background-color:transparent}@media (min-width:992px)
     {#mainNav{border-color:transparent;background-color:transparent}
         #mainNav .navbar-brand {

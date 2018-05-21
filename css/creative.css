@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+    background-color: #694435 !important;
 }
 
 .bg-dark {
@@ -88,7 +88,7 @@ img::-moz-selection {
     -moz-transition: all 0.2s;
     transition: all 0.2s;
 }
-
+    /*Changes brand name color in nav over header*/
     #mainNav .navbar-brand {
         font-weight: 700;
         text-transform: uppercase;
@@ -110,12 +110,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #000000;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: #000000 !important;
   background-color: transparent;
 }
 
