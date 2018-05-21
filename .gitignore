@@ -335,9 +335,15 @@ node_modules
 bower_components
 .vs/slnx.sqlite
 .vs/slnx.sqlite
+<<<<<<< HEAD
 >>>>>>> Working
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 .vs/slnx.sqlite
 .vs/Dangitjon.github.io/v15/.suo
 *.sqlite
+=======
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/Dangitjon.github.io/v15/.suo
+>>>>>>> Working
