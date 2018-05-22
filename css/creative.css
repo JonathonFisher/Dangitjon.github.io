@@ -8,9 +8,9 @@ body {
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: #fff;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #EC262F;
 }
 
 hr.light {
@@ -36,13 +36,13 @@ h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
 }
-
+/*Changes the about section color*/
 .bg-primary {
-    background-color: #694435 !important;
+    background-color: #EC262F !important;
 }
 
 .bg-dark {
-    background-color: #694435 !important;
+    background-color: #36393E !important;
 }
 
 .text-faded {
@@ -111,12 +111,12 @@ img::-moz-selection {
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
         color: #EC262F;
     }
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #fff !important;
-  background-color: transparent;
-}
+    /*Changes the color of active selection item*/
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+        color: #EC262F !important;
+        background-color: transparent;
+    }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -131,10 +131,10 @@ img::-moz-selection {
     /*adds the transparent layor to brand*/
     #mainNav .navbar-brand {
         color: rgba(255, 255, 255, .6);
-    } 
-   /* #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-        color: #EC262F; 
-    } */
+    }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+            color: #EC262F;
+        } 
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
@@ -143,31 +143,32 @@ img::-moz-selection {
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
         color: rgba(255, 255, 255, .6);
     }
-  /* #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #000000;
-  } */
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #EC262F;
+        } 
   /*Changes color of nav bar*/
     #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #0480A4;
+        background-color: #F9F8F2;
     }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #000000;
-  }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #000000;
-  }
+  /*Changes brand color off header*/
+        #mainNav.navbar-shrink .navbar-brand {
+            color: #EC262F;
+        }
+            #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+                color: #EC262F;
+            }
   /*changes the nav color when off header*/
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #fff;
-  }
-  /*changes the hover nav color when off header*/
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #000000;
   }
+  /*changes the hover nav color when off header*/
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+        color: #EC262F;
+    }
 }
 
 header.masthead {
@@ -284,9 +285,9 @@ header.masthead p {
     font-size: 22px;
   }
 }
-
+/*Changes service icons colors*/
 .text-primary {
-  color: #F05F40 !important;
+    color: #EC262F !important;
 }
 
 .btn {
@@ -300,17 +301,17 @@ header.masthead p {
 .btn-xl {
   padding: 1rem 2rem;
 }
-
+/*Changes header button color*/
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+    background-color: ##EC262F;
+    border-color: #fff;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #ee4b28 !important;
-}
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+        color: #fff;
+        background-color: #DA191E !important;
+    }
 
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-}
+    .btn-primary:active, .btn-primary:focus {
+        box-shadow: 0 0 0 0.2rem rgba(236, 38, 47, .5) !important;
+    }
