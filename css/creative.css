@@ -107,10 +107,10 @@ img::-moz-selection {
   color: #fff;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #fff;
-}
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+        color: #EC262F;
+    }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
@@ -128,6 +128,7 @@ img::-moz-selection {
     border-color: transparent;
     background-color: transparent;
   }
+    
     #mainNav .navbar-brand {
         color: rgba(255, 255, 255, .6);
     } 
@@ -140,19 +141,19 @@ img::-moz-selection {
   /*Changes the nav color when on header image*/
     #mainNav .navbar-nav > li.nav-item > a.nav-link,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(0, 0, 0, 1));
+        color: rgba(255, 255, 255, .6);
     }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  /* #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #000000;
-  }
+  } */
   /*Changes color of nav bar*/
     #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #0480A4;
     }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #;
+    color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #000000;

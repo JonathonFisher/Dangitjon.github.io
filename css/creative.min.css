@@ -84,7 +84,7 @@ img::-moz-selection {
         color: #fff
     }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-            color: #fff
+            color: #EC262F
         }
         #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
             color: #fff !important;
@@ -98,7 +98,7 @@ img::-moz-selection {
         border-color: transparent;
         background-color: transparent
     }
-
+    /*adds the transparent layor to brand*/
          #mainNav .navbar-brand {
             color: rgba(255, 255, 255, .6)
         } 
@@ -112,12 +112,12 @@ img::-moz-selection {
         }
             /*Changes the nav color when on header image*/
             #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-                color: rgba(0, 0, 0, 1)
+                color: rgba(255, 255, 255, .6)
             }
 
-                #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+               /* #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
                     color: #000000
-                }
+                } */
         /*Changes color of nav bar*/
         #mainNav.navbar-shrink {
             border-bottom: 1px solid rgba(33,37,41,.1);
