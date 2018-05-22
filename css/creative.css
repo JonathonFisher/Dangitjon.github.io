@@ -10,22 +10,22 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #fff;
 }
 
 hr.light {
-  border-color: #000000;
+  border-color: #fff;
 }
 
 a {
-  color: #000000;
+  color: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #000000;
+  color: #fff;
 }
 
 h1,
@@ -59,13 +59,13 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #212529;
+  background: #fff;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #212529;
+  background: #fff;
   text-shadow: none;
 }
 
@@ -81,7 +81,7 @@ img::-moz-selection {
 
 #mainNav {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #000000;
+    background-color: #fff;
     font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -91,12 +91,12 @@ img::-moz-selection {
     #mainNav .navbar-brand {
         font-weight: 700;
         text-transform: uppercase;
-        color: #000000;
+        color: #fff;
         font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
     }
-
+    /*Changes the hover of the brand over header*/
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-            color: #000000;
+            color: #EC262F;
         }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -104,17 +104,17 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #778235;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #000000;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #000000 !important;
+  color: #fff !important;
   background-color: transparent;
 }
 
@@ -129,11 +129,11 @@ img::-moz-selection {
     background-color: transparent;
   }
     #mainNav .navbar-brand {
-        color: rgba(0, 0, 0, 1);
-    }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #000000;
-  }
+        color: rgba(255, 255, 255, .6);
+    } 
+   /* #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+        color: #EC262F; 
+    } */
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
@@ -149,10 +149,10 @@ img::-moz-selection {
   /*Changes color of nav bar*/
     #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #778235;
+        background-color: #0480A4;
     }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000000;
+    color: #;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #000000;
