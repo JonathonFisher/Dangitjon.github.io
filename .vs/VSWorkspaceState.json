@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\img",
-    "\\scss",
-    "\\vendor",
-    "\\vendor\\jquery",
-    "\\vendor\\magnific-popup"
+    "\\img"
   ],
-  "SelectedNode": "\\img\\header_two.jpg",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": true
 }
