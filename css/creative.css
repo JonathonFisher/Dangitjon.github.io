@@ -73,7 +73,7 @@ img::-moz-selection {
   color: #000000;
   background: transparent;
 }
-
+/*changes nav bar color on mobile */
 #mainNav {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #F9F8F2;
@@ -82,11 +82,11 @@ img::-moz-selection {
     -moz-transition: all 0.2s;
     transition: all 0.2s;
 }
-    /*Changes brand name color in nav over header*/
+    /*Changes brand name color in nav over header on mobile */
     #mainNav .navbar-brand {
         font-weight: 700;
         text-transform: uppercase;
-        color: #000000;
+        color: #EC262F;
         font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
     }
     /*Changes the hover of the brand over header*/
