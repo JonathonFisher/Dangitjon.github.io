@@ -65,12 +65,12 @@ section {
 }
 
 img::selection {
-  color: #fff;
+  color: #000000;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: #fff;
+  color: #000000;
   background: transparent;
 }
 
@@ -233,7 +233,7 @@ header.masthead p {
         height: 100%;
         text-align: center;
         opacity: 0;
-        color: #000000;
+        color: ##005973;
         background: rgba(236, 38, 47, 0.9));
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
