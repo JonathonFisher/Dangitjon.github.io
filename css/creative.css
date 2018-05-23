@@ -99,7 +99,7 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
 }
     /*Changes nav item hover over header*/
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
