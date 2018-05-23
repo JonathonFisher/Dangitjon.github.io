@@ -86,7 +86,7 @@ img::-moz-selection {
     #mainNav .navbar-brand {
         font-weight: 700;
         text-transform: uppercase;
-        color: #fff;
+        color: #000000;
         font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
     }
     /*Changes the hover of the brand over header*/
