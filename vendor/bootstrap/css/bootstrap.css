@@ -161,16 +161,16 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+    color: #EC262F;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
 }
 
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
+    a:hover {
+        color: #EC262F;
+        text-decoration: underline;
+    }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -8801,7 +8801,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+    color: #F9F8F2 !important;
 }
 
 .text-primary {
@@ -8881,7 +8881,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(249, 248, 242, 0.5) !important;
 }
 
 .text-hide {

@@ -145,14 +145,14 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #EC262F;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
     a:hover {
-        color: #0056b3;
+        color: #EC262F;
         text-decoration: underline
     }
 
@@ -8865,7 +8865,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .text-white {
-    color: #fff !important
+    color: #F9F8F2 !important
 }
 
 .text-primary {
@@ -8945,7 +8945,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .text-white-50 {
-    color: rgba(255,255,255,.5) !important
+    color: rgba(249, 248, 242, 0.5) !important
 }
 
 .text-hide {
