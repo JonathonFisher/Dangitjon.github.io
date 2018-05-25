@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\scss",
     "\\vendor",
     "\\vendor\\bootstrap",
@@ -8,10 +9,8 @@
     "\\vendor\\bootstrap\\js",
     "\\vendor\\font-awesome",
     "\\vendor\\font-awesome\\less",
-    "\\vendor\\jquery",
-    "\\vendor\\magnific-popup",
-    "\\vendor\\scrollreveal"
+    "\\vendor\\jquery"
   ],
-  "SelectedNode": "\\vendor\\font-awesome\\less\\icons.less",
+  "SelectedNode": "\\vendor\\bootstrap\\css\\bootstrap.min.css",
   "PreviewInSolutionExplorer": true
 }
