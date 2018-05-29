@@ -2579,8 +2579,8 @@ a.btn.disabled, fieldset:disabled a.btn {
 
 .btn-light {
     color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa
+    background-color: #F9F8F2;
+    border-color: #F9F8F2
 }
 
     .btn-light:hover {
@@ -9048,5 +9048,8 @@ a.text-dark:focus, a.text-dark:hover {
         color: inherit;
         border-color: #dee2e6
     }
+}
+mail {
+    margin: 0 auto;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */

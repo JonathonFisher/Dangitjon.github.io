@@ -269,3 +269,6 @@ header.masthead {
     .btn-primary:active, .btn-primary:focus {
         box-shadow: 0 0 0 .2rem rgba(236, 38, 47, .5) !important
     }
+mail {
+    margin: 0 auto;
+}
